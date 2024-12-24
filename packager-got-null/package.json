@@ -1,0 +1,6 @@
+{ 
+  "name": "atlaspack-repros-packager-got-null",
+  "dependencies": {
+    "@atlaspack/cli": "*"
+  }
+}
