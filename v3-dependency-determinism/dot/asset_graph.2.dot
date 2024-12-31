@@ -1,0 +1,22 @@
+digraph {
+	node [shape=rectangle]
+	"ROOT" -> "dependency\n70dfa06b2546a271\nsrc/index.js"
+	"dependency\n70dfa06b2546a271\nsrc/index.js" -> "asset_group\n7474ca56db68348b\nsrc/index.js"
+	"asset_group\n7474ca56db68348b\nsrc/index.js" -> "asset\n56dc96e5715e4a74\nsrc/index.js"
+	"asset\n56dc96e5715e4a74\nsrc/index.js" -> "dependency\n0085fac67ecd09e7\n./1/10.js" [style="dashed"]
+	"dependency\n0085fac67ecd09e7\n./1/10.js" -> "asset_group\nbe20d5f1ce9f0cad\nsrc/1/10.js"
+	"asset_group\nbe20d5f1ce9f0cad\nsrc/1/10.js" -> "asset\n4ce1cd1629527459\nsrc/1/10.js"
+	"asset\n4ce1cd1629527459\nsrc/1/10.js" -> "dependency\n1521741703c67bde\n./11.js" [style="dashed"]
+	"dependency\need4100d4436a791\n../1/11.js" -> "asset_group\nc07e008ad874ecb7\nsrc/1/11.js"
+	"dependency\n1521741703c67bde\n./11.js" -> "asset_group\nc07e008ad874ecb7\nsrc/1/11.js"
+	"asset_group\nc07e008ad874ecb7\nsrc/1/11.js" -> "asset\nb486f0fd005f0719\nsrc/1/11.js"
+	"asset\n4ce1cd1629527459\nsrc/1/10.js" -> "dependency\ncef39b9a16cec706\n../2/21.js" [style="dashed"]
+	"dependency\ncef39b9a16cec706\n../2/21.js" -> "asset_group\n55dc6aaa2ea8c35d\nsrc/2/21.js"
+	"dependency\n4051022f633a2414\n./21.js" -> "asset_group\n55dc6aaa2ea8c35d\nsrc/2/21.js"
+	"asset_group\n55dc6aaa2ea8c35d\nsrc/2/21.js" -> "asset\n6c11cd4e741a8c35\nsrc/2/21.js"
+	"asset\n56dc96e5715e4a74\nsrc/index.js" -> "dependency\n1478e14bb76fe9d9\n./2/20.js" [style="dashed"]
+	"dependency\n1478e14bb76fe9d9\n./2/20.js" -> "asset_group\n04215e620ffbc306\nsrc/2/20.js"
+	"asset_group\n04215e620ffbc306\nsrc/2/20.js" -> "asset\n26f7c4e74bb51b7d\nsrc/2/20.js"
+	"asset\n26f7c4e74bb51b7d\nsrc/2/20.js" -> "dependency\n4051022f633a2414\n./21.js" [style="dashed"]
+	"asset\n26f7c4e74bb51b7d\nsrc/2/20.js" -> "dependency\need4100d4436a791\n../1/11.js" [style="dashed"]
+}

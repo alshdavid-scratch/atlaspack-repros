@@ -1,0 +1,6 @@
+{ 
+  "name": "atlaspack-repros-v3-dependency-determinism",
+  "dependencies": {
+    "@atlaspack/cli": "*"
+  }
+}
