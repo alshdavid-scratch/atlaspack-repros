@@ -1,0 +1,6 @@
+{ 
+  "name": "atlaspack-repros-control",
+  "dependencies": {
+    "@atlaspack/cli": "*"
+  }
+}
