@@ -27,7 +27,6 @@ else
 fi
 
 node "$ATLASPACK_BIN" \
-  build \
-    --no-source-maps \
+  watch \
     --feature-flag atlaspackV3="$FF_ATLASPACK_V3" \
     "$PATH_SCRIPT/src/index.js" | tee
